@@ -42,8 +42,15 @@ switch (num) {
         console.log('末吉です');
         break;
 }
-let numb = Math.floor(Math.random() * 5);
-while (numb !== 0) {
+num = Math.floor(Math.random() * 5);
+while (num !== 0) {
     num = Math.floor(Math.random() * 5);
-    console.log('現在の値は' + numb + 'です');
+    console.log('現在の値は' + num + 'です');
+}
+
+for (let i =1; i <= 50; i*=2) {
+    console.log(i);
+}
+for (i = 2; i <= 200; i*=2) {
+    console.log(i);
 }
