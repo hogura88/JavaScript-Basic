@@ -54,3 +54,20 @@ for (let i =1; i <= 50; i*=2) {
 for (i = 2; i <= 200; i*=2) {
     console.log(i);
 }
+
+const userNames = ['侍太郎','侍一郎','侍二郎','侍三郎','侍四郎'];
+console.log(userNames);
+userNames[1] = '侍花子';
+userNames[5] = '侍五郎';
+console.log(userNames);
+console.log(userNames[2]);
+//配列はconstを使う//
+//オブジェクトとは、配列におけるインデックス(0=侍太郎)の代わりにキーと呼ばれるラベルをつけて管理するデータのまとまりのこと//
+//＝連想配列。オブジェクトにおけるキーと値のセットのことを、プロパティという//
+
+const personalData = { name: '侍太郎', age: 36, gender: '男性'};
+console.log(personalData);
+personalData.age = 37;
+personalData.address = '東京都';
+console.log(personalData);
+console.log(personalData.gender);
