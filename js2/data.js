@@ -88,4 +88,15 @@ const calculater = (number) => {
 } 
 console.log(calculater(10));
 
- 
+class Product {
+    constructor(name, price, category) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+    }
+}
+const shampoo = new Product('シャンプー', 500, '生活雑貨');
+const coffee = new Product('KATI KATI', 1200, 'プロモ');
+
+console.log(shampoo);
+console.log(coffee);
