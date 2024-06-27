@@ -71,3 +71,21 @@ personalData.age = 37;
 personalData.address = '東京都';
 console.log(personalData);
 console.log(personalData.gender);
+
+const sayGoodMorning = () => {
+    console.log('おはようございます！');
+    console.log('昨日はよく眠れましたか？');
+    console.log('今日も一日頑張りましょう！');
+}
+sayGoodMorning();
+
+const calculateTotal = (price) => {
+    console.log(price + 500 + '円');
+}
+
+const calculater = (number) => {
+    return number * number;
+} 
+console.log(calculater(10));
+
+ 
