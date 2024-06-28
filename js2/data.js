@@ -65,7 +65,12 @@ console.log(userNames[2]);
 //オブジェクトとは、配列におけるインデックス(0=侍太郎)の代わりにキーと呼ばれるラベルをつけて管理するデータのまとまりのこと//
 //＝連想配列。オブジェクトにおけるキーと値のセットのことを、プロパティという//
 
-const personalData = { name: '侍太郎', age: 36, gender: '男性'};
+const personalData = { name: '侍太郎', age: 36, gender: '男性',
+    greet: () => {
+        console.log('よろしくお願いします！');
+    }
+}
+personalData.greet();
 console.log(personalData);
 personalData.age = 37;
 personalData.address = '東京都';
@@ -94,9 +99,15 @@ class Product {
         this.price = price;
         this.category = category;
     }
+
+    describe() {
+        console.log('この商品は' + this.name + 'です。');
+    }
 }
 const shampoo = new Product('シャンプー', 500, '生活雑貨');
 const coffee = new Product('KATI KATI', 1200, 'プロモ');
 
 console.log(shampoo);
 console.log(coffee);
+
+shampoo.describe();
