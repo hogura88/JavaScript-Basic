@@ -111,3 +111,5 @@ console.log(shampoo);
 console.log(coffee);
 
 shampoo.describe();
+
+console.log(document.head);
