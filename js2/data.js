@@ -113,3 +113,4 @@ console.log(coffee);
 shampoo.describe();
 
 console.log(document.head);
+console.log(document.body);
