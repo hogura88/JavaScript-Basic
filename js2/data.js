@@ -114,3 +114,4 @@ shampoo.describe();
 
 console.log(document.head);
 console.log(document.body);
+console.log('今日はここまで');
