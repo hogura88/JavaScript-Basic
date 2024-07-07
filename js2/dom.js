@@ -9,3 +9,7 @@ const headings = document.getElementsByClassName('heading');
 for (let i = 0; i < headings.length; i++) {
     console.log(headings[i]);
 }
+
+console.log(document.querySelector('h1'));
+console.log(document.querySelector('#seconde-heading'));
+console.log(document.querySelector('.list'));
