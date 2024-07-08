@@ -13,3 +13,6 @@ for (let i = 0; i < headings.length; i++) {
 console.log(document.querySelector('h1'));
 console.log(document.querySelector('#seconde-heading'));
 console.log(document.querySelector('.list'));
+
+console.log(document.querySelectorAll('.heading'));
+console.log(document.querySelectorAll('.li'));
