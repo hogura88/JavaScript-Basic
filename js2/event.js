@@ -6,3 +6,10 @@ btn.addEventListener('click', () => {
 
 const addBtn = document.getElementById('add-btn');
 const parentList = document.getElementById('parent-list')
+
+addBtn.addEventListener('click', () => {
+    const childList = document.createElement('li');
+    childList.textContent = 'これはリスト要素です';
+});
+
+
