@@ -14,3 +14,7 @@ addBtn.addEventListener('click', () => {
 });
 
 const countBtn = document.getElementById('count-btn');
+countBtn.addEventListener('click', () => {
+    const text = document.forms.textForm.value;
+    console.log(text.length + '文字');
+})
