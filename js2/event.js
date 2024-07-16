@@ -18,3 +18,9 @@ countBtn.addEventListener('click', () => {
     const text = document.forms.textForm.value;
     console.log(text.length + '文字');
 })
+
+const areaBtn = document.getElementById('area-btn');
+areaBtn.addEventListener('click', () => {
+    const area = document.forms.areaForm.area.value;
+    console.log(area);
+});
