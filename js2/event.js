@@ -24,3 +24,13 @@ areaBtn.addEventListener('click', () => {
     const area = document.forms.areaForm.area.value;
     console.log(area);
 });
+
+const osBtn = document.getElementById('os-btn');
+osBtn.addEventListener('click', () => {
+    const items = document.forms.osForms.os;
+    for (let i = 0; i < items.length; i++) {
+        if (items[i].checked) {
+            console.log(items[i].value);
+        }
+    }
+});
