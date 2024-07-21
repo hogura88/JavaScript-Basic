@@ -9,5 +9,3 @@ window.addEventListener('scroll', () => {
         backBtn.style.display = 'none';
     }
 });
-
-const backBtn = document.getElementById('back-btn');
