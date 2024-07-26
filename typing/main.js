@@ -1,3 +1,9 @@
+const textLists = [
+    'Hello World',
+    'This is my App',
+    'How are you?'
+];
+
 const createText = () => {};
 
 const keyPress = e => {};
