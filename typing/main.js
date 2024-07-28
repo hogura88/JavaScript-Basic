@@ -8,7 +8,11 @@ const textLists = [
     'How are you?'
 ];
 
-const createText = () => {};
+const createText = () => {
+    untyped = textLists[0];
+    untypedfield.textContent = untyped;
+};
+createText();
 
 const keyPress = e => {};
 
