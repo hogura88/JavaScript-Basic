@@ -9,7 +9,10 @@ const textLists = [
 ];
 
 const createText = () => {
-    untyped = textLists[0];
+
+    console.log(Math.floor(Math.random() * textLists.length));
+
+    untyped = textLists[1];
     untypedfield.textContent = untyped;
 };
 createText();
