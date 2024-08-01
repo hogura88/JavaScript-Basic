@@ -27,10 +27,14 @@ const createText = () => {
 };
 createText();
 
-const keyPress = e => {};
+const keyPress = e => {
+    console.log(e.key);
+};
 
 const rankCheck = score => {};
 
 const gameOver = id => {};
 
 const timer = () => {};
+
+document.addEventListener('keypress', keyPress);
