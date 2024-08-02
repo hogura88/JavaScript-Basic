@@ -1,6 +1,8 @@
 let untyped = '';
+let typed = '';
 
 const untypedfield = document.getElementById('untyped');
+const typedfield = document.getElementById('typed');
 
 const textLists = [
    'Hello World','This is my App','How are you?',
