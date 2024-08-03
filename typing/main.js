@@ -30,7 +30,9 @@ const createText = () => {
 createText();
 
 const keyPress = e => {
-    console.log(e.key);
+    typed += untyped.substring(0,1);
+    untyped = untyped.substring(1);
+    
 };
 
 const rankCheck = score => {};
