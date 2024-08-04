@@ -32,7 +32,8 @@ createText();
 const keyPress = e => {
     typed += untyped.substring(0,1);
     untyped = untyped.substring(1);
-    
+    typedfield.textContent = typed;
+    untypedfield.textContent = untyped;
 };
 
 const rankCheck = score => {};
