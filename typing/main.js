@@ -22,6 +22,9 @@ const textLists = [
 
 const createText = () => {
 
+    typed = '';
+    typedfield.textContent = typed;
+
     let random = Math.floor(Math.random() * textLists.length);
 
     untyped = textLists[random];
