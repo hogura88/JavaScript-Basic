@@ -33,6 +33,9 @@ const createText = () => {
 createText();
 
 const keyPress = e => {
+    if(e.key !== untyped.substring(0, 1)) {
+        return;
+    }
     typed += untyped.substring(0,1);
     untyped = untyped.substring(1);
     typedfield.textContent = typed;
