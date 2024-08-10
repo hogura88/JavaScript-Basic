@@ -3,6 +3,7 @@ let typed = '';
 
 const untypedfield = document.getElementById('untyped');
 const typedfield = document.getElementById('typed');
+const wrap = document.getElementById('wrap');
 
 const textLists = [
    'Hello World','This is my App','How are you?',
