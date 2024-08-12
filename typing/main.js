@@ -4,6 +4,7 @@ let typed = '';
 const untypedfield = document.getElementById('untyped');
 const typedfield = document.getElementById('typed');
 const wrap = document.getElementById('wrap');
+const start = document.getElementById('start');
 
 const textLists = [
    'Hello World','This is my App','How are you?',
@@ -31,7 +32,6 @@ const createText = () => {
     untyped = textLists[random];
     untypedfield.textContent = untyped;
 };
-createText();
 
 const keyPress = e => {
     if(e.key !== untyped.substring(0, 1)) {
